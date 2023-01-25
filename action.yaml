@@ -1,4 +1,4 @@
-name: "Manage Heroku Review Apps"
+name: "Heroku Review App Action"
 description: Use Heroku API to replicate the review app integration
 author: Original - @pmbanugo / Modified by YNAB
 inputs:

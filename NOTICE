@@ -1,1 +1,1 @@
-action.yaml was modified by YNAB in 2022 to include more logging and fix an issue where failed deploys to a review app would not be reported.
+`action.yaml` was modified by YNAB in 2022 to include more logging and fix an issue where failed deploys to a review app would not be reported.
