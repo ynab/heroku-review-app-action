@@ -7,12 +7,12 @@ This repository was forked from https://github.com/pmbanugo/heroku-review-app-ac
 ## Example usage
 
 ```yaml
-uses: ynab/heroku-review-app-action@v1
-id: deploy
-with:
- api-key: ${{ secrets.HEROKU_API_KEY }}
- pipeline-id: ${{ secrets.PIPELINE_ID }}
- app-name-prefix: my-app-name-prefix
- region: us
- team: my-team-name
+- uses: ynab/heroku-review-app-action@v1
+  id: deploy
+  with:
+   api-key: ${{ secrets.HEROKU_API_KEY }}
+   pipeline-id: ${{ secrets.PIPELINE_ID }}
+   app-name-prefix: my-app-name-prefix
+   region: us
+   team: my-team-name
 ```
